@@ -1,0 +1,32 @@
+div button {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 71%); 
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10%;
+}
+#corpocalc {
+    box-sizing: border-box;
+    border: 2px black solid;
+    display: grid;
+    width: 35%; 
+    height: 45rem;
+    grid-template-columns: 6rem 6rem 6rem 6rem;
+    grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem;
+    justify-content: space-evenly;
+    grid-gap: 0.5rem;
+    background-color: #d5cece;
+}
+div p {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border: 1px black solid;
+    width: 34rem;
+    font-size: 2rem;
+}
+#bottone {
+    width: 34rem;
+}
